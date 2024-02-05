@@ -17,7 +17,6 @@ public class Q017 {
   }
 
   static String solution(int[] num) {
-    // int idx = 0;
     for (int i = 0; i < num.length; i++) {
       int idx = i;
       for (int j = i; j < num.length; j++) {
